@@ -1,0 +1,95 @@
+{
+  "uid" : "279b3368ea5f9af2",
+  "name" : "登录接口用例",
+  "fullName" : "test_login#test_login",
+  "historyId" : "a7dbb4686f44fd89692c93c715752460",
+  "time" : {
+    "start" : 1593934828847,
+    "stop" : 1593934828942,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_all_lesson",
+    "time" : {
+      "start" : 1593934828318,
+      "stop" : 1593934828469,
+      "duration" : 151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "delete_all_lesson::fin",
+    "time" : {
+      "start" : 1593934828960,
+      "stop" : 1593934828967,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20170828DBR"
+  }, {
+    "name" : "thread",
+    "value" : "40008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"username\": \"\",\"password\": \"\"}'"
+  }, {
+    "name" : "repsData",
+    "value" : "'{\n\"retcode\": 1,\n\"reason\": \"用户或者密码错误\"\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "279b3368ea5f9af2.json",
+  "parameterValues" : [ "'{\"username\": \"\",\"password\": \"\"}'", "'{\n\"retcode\": 1,\n\"reason\": \"用户或者密码错误\"\n}'" ]
+}

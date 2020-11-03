@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../rf/.idea/rf.iml" filepath="$PROJECT_DIR$/../rf/.idea/rf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/teach.iml" filepath="$PROJECT_DIR$/.idea/teach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web自动化/.idea/web自动化.iml" filepath="$PROJECT_DIR$/../web自动化/.idea/web自动化.iml" />
+    </modules>
+  </component>
+</project>

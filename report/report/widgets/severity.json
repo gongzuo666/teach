@@ -1,0 +1,501 @@
+[ {
+  "uid" : "62b86b15c2fcb47e",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934826984,
+    "stop" : 1593934826998,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa198a123b90eea",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827113,
+    "stop" : 1593934827118,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1600f0f86356e4a",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827009,
+    "stop" : 1593934827013,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "39cb67e276a19334",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827308,
+    "stop" : 1593934827314,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcd18cf043b24a2f",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827279,
+    "stop" : 1593934827284,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eda60c553be9e42f",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827357,
+    "stop" : 1593934827364,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e287e0d927c124e",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827382,
+    "stop" : 1593934827387,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc20656e71aebfe2",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934828132,
+    "stop" : 1593934828136,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ca2e6716eb58ec46",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827820,
+    "stop" : 1593934827827,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44fa327825fa58f3",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827458,
+    "stop" : 1593934827466,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f09ed7ce997666",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827783,
+    "stop" : 1593934827787,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d284f24b1eac7675",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827331,
+    "stop" : 1593934827336,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e70d7b4e196a3c4f",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934828166,
+    "stop" : 1593934828173,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a99f2c1f36070d6",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934827899,
+    "stop" : 1593934827904,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "289e6489ded11cfe",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827676,
+    "stop" : 1593934827681,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82690d7c9181f219",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827194,
+    "stop" : 1593934827198,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c530b4e923e487",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934826843,
+    "stop" : 1593934826848,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e13a21fd7762115e",
+  "name" : "test_login_image",
+  "time" : {
+    "start" : 1593934828954,
+    "stop" : 1593934828959,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b6fb6902adf2785c",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827558,
+    "stop" : 1593934827563,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fe1bad6d2795db3a",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827637,
+    "stop" : 1593934827642,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93a3b61417bffaec",
+  "name" : "登录接口用例",
+  "time" : {
+    "start" : 1593934828469,
+    "stop" : 1593934828595,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8edd6cbd10058ecc",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934828052,
+    "stop" : 1593934828058,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30f075dd23026e78",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827712,
+    "stop" : 1593934827716,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "279b3368ea5f9af2",
+  "name" : "登录接口用例",
+  "time" : {
+    "start" : 1593934828847,
+    "stop" : 1593934828942,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "34be0c3e132d1501",
+  "name" : "登录接口用例",
+  "time" : {
+    "start" : 1593934828607,
+    "stop" : 1593934828711,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a536bd8f9bf013fe",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827877,
+    "stop" : 1593934827881,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "821c5577c0f9f461",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934828091,
+    "stop" : 1593934828096,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d402c3831d580174",
+  "name" : "登录接口用例",
+  "time" : {
+    "start" : 1593934828726,
+    "stop" : 1593934828834,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0762074ee6053c3",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827488,
+    "stop" : 1593934827494,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4316b64e7d6a939a",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934826824,
+    "stop" : 1593934826832,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaf7c39d71f5d8d7",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827430,
+    "stop" : 1593934827436,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ea1d75f7b4a6d89",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934827937,
+    "stop" : 1593934827942,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9c4a6383280cccc",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827513,
+    "stop" : 1593934827518,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "16baea2f5a9b7f91",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827537,
+    "stop" : 1593934827544,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49b8ad5036b9ff72",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934827975,
+    "stop" : 1593934827980,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ca300e6c0e50494",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827217,
+    "stop" : 1593934827227,
+    "duration" : 10
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b8f51dea166e768",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827165,
+    "stop" : 1593934827180,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb935e6f1fd14277",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827596,
+    "stop" : 1593934827600,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf976df13c6b05bc",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827251,
+    "stop" : 1593934827256,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "694e1d12ec5fc7eb",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934826963,
+    "stop" : 1593934826967,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be395fa5aa298b95",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827082,
+    "stop" : 1593934827100,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c8cc4730dbadcd4",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827405,
+    "stop" : 1593934827412,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "700e12d02ed77316",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827135,
+    "stop" : 1593934827151,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "246baaa0954a8165",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827745,
+    "stop" : 1593934827751,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d23556fca77fa72",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934826798,
+    "stop" : 1593934826812,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70042de2ce6bb952",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827055,
+    "stop" : 1593934827071,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f7262bc12be44b",
+  "name" : "删除课程",
+  "time" : {
+    "start" : 1593934828010,
+    "stop" : 1593934828014,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9526eca600b071dd",
+  "name" : "心增课程",
+  "time" : {
+    "start" : 1593934827029,
+    "stop" : 1593934827044,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86c4748740c5a2bf",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827859,
+    "stop" : 1593934827865,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13d277381829da19",
+  "name" : "列出课程",
+  "time" : {
+    "start" : 1593934827841,
+    "stop" : 1593934827847,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
