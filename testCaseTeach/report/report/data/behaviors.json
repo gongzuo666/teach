@@ -1,0 +1,683 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "课程模块",
+    "children" : [ {
+      "name" : "新增课程",
+      "children" : [ {
+        "name" : "心增课程",
+        "uid" : "711674cb5924407a",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016568,
+          "stop" : 1604374016579,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语\",\"desc\":\"大学英语课程\", \"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1286}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "66505ad803233ea0",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016585,
+          "stop" : 1604374016591,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{ \"name\":\"大学英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 2, \"reason\": \"同名课程已经存在\"}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "40b6fa0ea3428e7a",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016597,
+          "stop" : 1604374016601,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{ \"name\":\"\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1288}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "43d9a3fbbff5728d",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016676,
+          "stop" : 1604374016681,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学语文001\",\"desc\":\"大学英语课程\",\"display_idx\":\"\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\lib\\\\common.py\\\", line 69, in dispatch\\n    return handler(request, *args, **kwargs)\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\apps\\\\mgr\\\\handlers\\\\mgr.py\\\", line 156, in handle_add_course\\n    return  JsonResponse(Course.add(data))\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\services\\\\datamodel\\\\common\\\\models.py\\\", line 86, in add\\n    display_idx=data['display_idx'])\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 417, in create\\n    obj.save(force_insert=True, using=self.db)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 729, in save\\n    force_update=force_update, update_fields=update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 759, in save_base\\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 842, in _save_table\\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 880, in _do_insert\\n    using=using, raw=raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 1125, in _insert\\n    return query.get_compiler(using=using).execute_sql(return_id)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1283, in execute_sql\\n    for sql, params in self.as_sql():\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in as_sql\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in <listcomp>\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1235, in <listcomp>\\n    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1175, in prepare_value\\n    value = field.get_db_prep_save(value, connection=self.connection)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 767, in get_db_prep_save\\n    return self.get_db_prep_value(value, connection=connection, prepared=False)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 762, in get_db_prep_value\\n    value = self.get_prep_value(value)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 1826, in get_prep_value\\n    return int(value)\\nValueError: invalid literal for int() with base 10: ''\\n\"}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "c0fffd8debc3af41",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016691,
+          "stop" : 1604374016703,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语大学英语大学英语大学英语大学英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1289}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "338d744c435e93e7",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016709,
+          "stop" : 1604374016714,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"我大学英语大学英语大学英语大学英语大学英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1290}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "8b23bf2f8f492ab7",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016724,
+          "stop" : 1604374016735,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语大学英语大学\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1291}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "460d1c39c1aaeffe",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016741,
+          "stop" : 1604374016752,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1292}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "4d7af793370b4e90",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016758,
+          "stop" : 1604374016770,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语002\",\"desc\":\"大学英语课程\",\"display_idx\":\"999\"}\n'", "'{\"retcode\": 0, \"id\": 1293}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "7222437077ef2dbc",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016775,
+          "stop" : 1604374016780,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语003\",\"desc\":\"大学英语课程\",\"display_idx\":\"1000\"}'", "'{\"retcode\": 0, \"id\": 1294}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "f38ca907cc89ea55",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016790,
+          "stop" : 1604374016802,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语004\",\"desc\":\"大学英语课程\",\"display_idx\":\"500\"}'", "'{\"retcode\": 0, \"id\": 1295}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "151c2f950539f9f7",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374016808,
+          "stop" : 1604374016819,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语005\",\"desc\":\"大学英语课程\",\"display_idx\":\"0\"}\n'", "'{\"retcode\": 0, \"id\": 1296}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "d80512b33c6bb1ab",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016826,
+          "stop" : 1604374016830,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语006\",\"desc\":\"大学英语课程\",\"display_idx\":\"-1\"}'", "'{\"retcode\": 0, \"id\": 1297}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "24ac1138e9025a8d",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016840,
+          "stop" : 1604374016845,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语007\",\"desc\":\"大学英语课程\",\"display_idx\":\"33.3\"}\n'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\lib\\\\common.py\\\", line 69, in dispatch\\n    return handler(request, *args, **kwargs)\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\apps\\\\mgr\\\\handlers\\\\mgr.py\\\", line 156, in handle_add_course\\n    return  JsonResponse(Course.add(data))\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\services\\\\datamodel\\\\common\\\\models.py\\\", line 86, in add\\n    display_idx=data['display_idx'])\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 417, in create\\n    obj.save(force_insert=True, using=self.db)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 729, in save\\n    force_update=force_update, update_fields=update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 759, in save_base\\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 842, in _save_table\\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 880, in _do_insert\\n    using=using, raw=raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 1125, in _insert\\n    return query.get_compiler(using=using).execute_sql(return_id)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1283, in execute_sql\\n    for sql, params in self.as_sql():\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in as_sql\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in <listcomp>\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1235, in <listcomp>\\n    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1175, in prepare_value\\n    value = field.get_db_prep_save(value, connection=self.connection)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 767, in get_db_prep_save\\n    return self.get_db_prep_value(value, connection=connection, prepared=False)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 762, in get_db_prep_value\\n    value = self.get_prep_value(value)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 1826, in get_prep_value\\n    return int(value)\\nValueError: invalid literal for int() with base 10: ''\\n\"}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "5881f4cfb58c2aaa",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016855,
+          "stop" : 1604374016859,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学$英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1297}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "acb532cada5f3669",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016869,
+          "stop" : 1604374016873,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学*英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}'", "'{\"retcode\": 0, \"id\": 1298}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "90f41a71752522d7",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016884,
+          "stop" : 1604374016888,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学&英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1299}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "5750a5f1fb7bab7",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016898,
+          "stop" : 1604374016903,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学。英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1300}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "ecc46933b7867f38",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016913,
+          "stop" : 1604374016917,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学：英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1301}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "2e985629d959ff14",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016927,
+          "stop" : 1604374016931,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\" 大学英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1302}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "a1c0cad94298ceb4",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016941,
+          "stop" : 1604374016945,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语 \",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1303}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "f6123e04b48d2ce2",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016954,
+          "stop" : 1604374016958,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学 英语\",\"desc\":\"大学英语课程\",\"display_idx\":\"4\"}\n'", "'{\"retcode\": 0, \"id\": 1304}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "be7b6e5645fd36ac",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016968,
+          "stop" : 1604374016972,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语008\",\"desc\":\"大学英语课程\",\"display_idx\":\"ab\"}\n'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\lib\\\\common.py\\\", line 69, in dispatch\\n    return handler(request, *args, **kwargs)\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\apps\\\\mgr\\\\handlers\\\\mgr.py\\\", line 156, in handle_add_course\\n    return  JsonResponse(Course.add(data))\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\services\\\\datamodel\\\\common\\\\models.py\\\", line 86, in add\\n    display_idx=data['display_idx'])\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 417, in create\\n    obj.save(force_insert=True, using=self.db)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 729, in save\\n    force_update=force_update, update_fields=update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 759, in save_base\\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 842, in _save_table\\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 880, in _do_insert\\n    using=using, raw=raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 1125, in _insert\\n    return query.get_compiler(using=using).execute_sql(return_id)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1283, in execute_sql\\n    for sql, params in self.as_sql():\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in as_sql\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in <listcomp>\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1235, in <listcomp>\\n    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1175, in prepare_value\\n    value = field.get_db_prep_save(value, connection=self.connection)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 767, in get_db_prep_save\\n    return self.get_db_prep_value(value, connection=connection, prepared=False)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 762, in get_db_prep_value\\n    value = self.get_prep_value(value)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 1826, in get_prep_value\\n    return int(value)\\nValueError: invalid literal for int() with base 10: ''\\n\"}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "988d594c91dd6171",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016983,
+          "stop" : 1604374016987,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语009\",\"desc\":\"大学英语课程\",\"display_idx\":\"a4\"}\n'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\lib\\\\common.py\\\", line 69, in dispatch\\n    return handler(request, *args, **kwargs)\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\apps\\\\mgr\\\\handlers\\\\mgr.py\\\", line 156, in handle_add_course\\n    return  JsonResponse(Course.add(data))\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\services\\\\datamodel\\\\common\\\\models.py\\\", line 86, in add\\n    display_idx=data['display_idx'])\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 417, in create\\n    obj.save(force_insert=True, using=self.db)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 729, in save\\n    force_update=force_update, update_fields=update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 759, in save_base\\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 842, in _save_table\\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 880, in _do_insert\\n    using=using, raw=raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 1125, in _insert\\n    return query.get_compiler(using=using).execute_sql(return_id)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1283, in execute_sql\\n    for sql, params in self.as_sql():\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in as_sql\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in <listcomp>\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1235, in <listcomp>\\n    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1175, in prepare_value\\n    value = field.get_db_prep_save(value, connection=self.connection)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 767, in get_db_prep_save\\n    return self.get_db_prep_value(value, connection=connection, prepared=False)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 762, in get_db_prep_value\\n    value = self.get_prep_value(value)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 1826, in get_prep_value\\n    return int(value)\\nValueError: invalid literal for int() with base 10: ''\\n\"}'" ]
+      }, {
+        "name" : "心增课程",
+        "uid" : "29769af8b691d64f",
+        "parentUid" : "b7d4fd77a36986ff55add5ed988e2971",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374016998,
+          "stop" : 1604374017002,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"name\":\"大学英语010\",\"desc\":\"大学英语课程\",\"display_idx\":\",\"}\n'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\lib\\\\common.py\\\", line 69, in dispatch\\n    return handler(request, *args, **kwargs)\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\apps\\\\mgr\\\\handlers\\\\mgr.py\\\", line 156, in handle_add_course\\n    return  JsonResponse(Course.add(data))\\n  File \\\"G:\\\\SQ\\u8d44\\u6599\\u533a\\\\\\u677e\\u52e4\\u81ea\\u52a8\\u5316\\u8bfe\\u7a0b\\\\Web-API\\u8bfe\\u7a0b\\\\\\u5b89\\u88c5\\u6587\\u4ef6\\\\restapi-teach\\\\backend\\\\services\\\\datamodel\\\\common\\\\models.py\\\", line 86, in add\\n    display_idx=data['display_idx'])\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 417, in create\\n    obj.save(force_insert=True, using=self.db)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 729, in save\\n    force_update=force_update, update_fields=update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 759, in save_base\\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 842, in _save_table\\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\base.py\\\", line 880, in _do_insert\\n    using=using, raw=raw)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\manager.py\\\", line 82, in manager_method\\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\query.py\\\", line 1125, in _insert\\n    return query.get_compiler(using=using).execute_sql(return_id)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1283, in execute_sql\\n    for sql, params in self.as_sql():\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in as_sql\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1236, in <listcomp>\\n    for obj in self.query.objs\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1235, in <listcomp>\\n    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\sql\\\\compiler.py\\\", line 1175, in prepare_value\\n    value = field.get_db_prep_save(value, connection=self.connection)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 767, in get_db_prep_save\\n    return self.get_db_prep_value(value, connection=connection, prepared=False)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 762, in get_db_prep_value\\n    value = self.get_prep_value(value)\\n  File \\\"E:\\\\Python3.6.4-Tool\\\\lib\\\\site-packages\\\\django\\\\db\\\\models\\\\fields\\\\__init__.py\\\", line 1826, in get_prep_value\\n    return int(value)\\nValueError: invalid literal for int() with base 10: ''\\n\"}'" ]
+      } ],
+      "uid" : "b7d4fd77a36986ff55add5ed988e2971"
+    }, {
+      "name" : "列出课程",
+      "children" : [ {
+        "name" : "列出课程",
+        "uid" : "84e0f28ce4000105",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017013,
+          "stop" : 1604374017018,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"20\"}'", "'{\"retcode\": 0, \"retlist\": [{\"id\": 1287, \"name\": \"大学英语\", \"desc\": \"大学英语课程\", \"display_idx\": 4}], \"total\": 1}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "b425c246d666a14e",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017024,
+          "stop" : 1604374017028,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"\",\"pagesize\":\"20\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 82, in handle_list_course\n    pagenum = int(request.param_dict['pagenum'])\nValueError: invalid literal for int() with base 10: ''\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "ea8bc40f3d644a23",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017050,
+          "stop" : 1604374017054,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 83, in handle_list_course\n    pagesize = int(request.param_dict['pagesize'])\nValueError: invalid literal for int() with base 10: ''\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "73b43cdc6eff5941",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017074,
+          "stop" : 1604374017077,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"0\",\"pagesize\":\"20\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 84, in handle_list_course\n    return JsonResponse(Course.list(pagenum,pagesize))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\http\\response.py\", line 503, in __init__\n    'In order to allow non-dict objects to be serialized set the '\nTypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "559ab739eee3b382",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017097,
+          "stop" : 1604374017100,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"-1\",\"pagesize\":\"20\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 84, in handle_list_course\n    return JsonResponse(Course.list(pagenum,pagesize))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\http\\response.py\", line 503, in __init__\n    'In order to allow non-dict objects to be serialized set the '\nTypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "ff6d53fa2f07513b",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017120,
+          "stop" : 1604374017124,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"a\",\"pagesize\":\"20\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 82, in handle_list_course\n    pagenum = int(request.param_dict['pagenum'])\nValueError: invalid literal for int() with base 10: 'a'\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "20891c78f80c637",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017144,
+          "stop" : 1604374017149,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1000\",\"pagesize\":\"20\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 84, in handle_list_course\n    return JsonResponse(Course.list(pagenum,pagesize))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\http\\response.py\", line 503, in __init__\n    'In order to allow non-dict objects to be serialized set the '\nTypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "dd8042f73f0281bf",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017170,
+          "stop" : 1604374017173,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"0\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 84, in handle_list_course\n    return JsonResponse(Course.list(pagenum,pagesize))\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\services\\datamodel\\common\\models.py\", line 77, in list\n    return comm_list(Course,pagenum,pagesize)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\services\\datamodel\\common\\models.py\", line 58, in comm_list\n    retObj = list(pgnt.page(pagenum))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\core\\paginator.py\", line 65, in page\n    number = self.validate_number(number)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\core\\paginator.py\", line 43, in validate_number\n    if number > self.num_pages:\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\utils\\functional.py\", line 36, in __get__\n    res = instance.__dict__[self.name] = self.func(instance)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\core\\paginator.py\", line 98, in num_pages\n    return int(ceil(hits / float(self.per_page)))\nZeroDivisionError: float division by zero\n\"}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "d6ca7bc2d8fbed07",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017193,
+          "stop" : 1604374017198,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1\"}'", "'{\"retcode\": 0, \"retlist\": [{\"id\": 1287, \"name\": \"大学英语\", \"desc\": \"大学英语课程\", \"display_idx\": 4}], \"total\": 1}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "d7b1a6b6a4759b00",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017204,
+          "stop" : 1604374017210,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"500\"}'", "'{\"retcode\": 0, \"retlist\": [{\"id\": 1287, \"name\": \"大学英语\", \"desc\": \"大学英语课程\", \"display_idx\": 4}], \"total\": 1}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "ee6e7d57ebedf9cb",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017215,
+          "stop" : 1604374017220,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1000\"}'", "'{\"retcode\": 0, \"retlist\": [{\"id\": 1287, \"name\": \"大学英语\", \"desc\": \"大学英语课程\", \"display_idx\": 4}], \"total\": 1}'" ]
+      }, {
+        "name" : "列出课程",
+        "uid" : "41681dd859a7ec88",
+        "parentUid" : "31fe6d8665c7577b98100d123fc789a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604374017226,
+          "stop" : 1604374017229,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"list_course\",\"pagenum\":\"1\",\"pagesize\":\"1001\"}'", "'{\"retcode\": 0, \"retlist\": [{\"id\": 1287, \"name\": \"大学英语\", \"desc\": \"大学英语课程\", \"display_idx\": 4}], \"total\": 1}'" ]
+      } ],
+      "uid" : "31fe6d8665c7577b98100d123fc789a3"
+    }, {
+      "name" : "删除课程",
+      "children" : [ {
+        "name" : "删除课程",
+        "uid" : "dcc6147703e3d533",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017239,
+          "stop" : 1604374017242,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: ''\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "256577ad35c1affd",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017262,
+          "stop" : 1604374017265,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\" \"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: ' '\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "edaa51ce2111a3ed",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017286,
+          "stop" : 1604374017289,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"#\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: '#'\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "c8ac5f9e65358d39",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017310,
+          "stop" : 1604374017314,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"%\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: '%'\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "56ee6a55790e3dcb",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017336,
+          "stop" : 1604374017339,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"-\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: '-'\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "aececcc882b59c10",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017362,
+          "stop" : 1604374017365,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"好\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: '好'\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "f6b08c1f1c9e06dd",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604374017388,
+          "stop" : 1604374017391,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"122abc\"}'", "'{\"retcode\": 500, \"reason\": \"Traceback (most recent call last):\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\lib\\common.py\", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File \"G:\\SQ资料区\\松勤自动化课程\\Web-API课程\\安装文件\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py\", line 256, in handle_delete_course\n    Course.objects.filter(id=request.param_dict['id']).delete()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\manager.py\", line 82, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 836, in filter\n    return self._filter_or_exclude(False, *args, **kwargs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\query.py\", line 854, in _filter_or_exclude\n    clone.query.add_q(Q(*args, **kwargs))\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1253, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1277, in _add_q\n    split_subq=split_subq,\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1215, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1085, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 18, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 68, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"E:\\Python3.6.4-Tool\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 947, in get_prep_value\n    return int(value)\nValueError: invalid literal for int() with base 10: '122abc'\n\"}'" ]
+      }, {
+        "name" : "删除课程",
+        "uid" : "6f0da1ddfc222399",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017411,
+          "stop" : 1604374017416,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"action\":\"delete_course\",\"id\":\"123321\"}'", "'{\"retcode\": 0}'" ]
+      } ],
+      "uid" : "b0c8924eb49f1560e73840c1dcc02bb2"
+    } ],
+    "uid" : "41526c19c7a56b0d5e9aa69b0d7df2a6"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录接口",
+      "children" : [ {
+        "name" : "登录接口用例",
+        "uid" : "38bd4ca349f7d9e5",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017613,
+          "stop" : 1604374017702,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"username\": \"auto\", \"password\": \"sdfsdfsdf\"}'", "'{\"retcode\": 0}'" ]
+      }, {
+        "name" : "登录接口用例",
+        "uid" : "15f27c71a63b41f6",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017707,
+          "stop" : 1604374017775,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"username\": \"\", \"password\": \"sdfsdfsdf\"}'", "'{\"retcode\": 1, \"reason\": \"用户或密码错误\"}'" ]
+      }, {
+        "name" : "登录接口用例",
+        "uid" : "f6c495bfea384dbf",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017781,
+          "stop" : 1604374017849,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"username\": \"auto\", \"password\": \"\"}'", "'{\"retcode\": 1, \"reason\": \"用户或密码错误\"}'" ]
+      }, {
+        "name" : "登录接口用例",
+        "uid" : "d45503fd8e039d2b",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604374017855,
+          "stop" : 1604374017923,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"username\": \"\", \"password\": \"\"}'", "'{\"retcode\": 1, \"reason\": \"用户或密码错误\"}'" ]
+      } ],
+      "uid" : "a96082a673a92859c3643f7f05d73935"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "登录界面",
+    "children" : [ {
+      "name" : "test_login_image",
+      "uid" : "b2602fc7b6123ffe",
+      "parentUid" : "91ecbfe92e69d8e86867f0748a06e998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604374017929,
+        "stop" : 1604374017963,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "91ecbfe92e69d8e86867f0748a06e998"
+  } ]
+}
